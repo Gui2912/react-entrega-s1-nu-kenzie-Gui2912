@@ -1,0 +1,58 @@
+.gray-bg{
+  background-color: var(--color-gray-4);
+}
+
+.white-bg{
+  background-color: var(--color-white);
+}
+
+.container-bg {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+.container-home {
+  width: 70%;
+  height: 90%;
+}
+
+.first-section {
+  width: 30%;
+  gap: 5%;
+}
+
+.main-header {
+  position: absolute;
+  top: 0;
+  /* left: ; */
+  margin: 0;
+  height: 88px;
+  width: 100%;
+  background: var(--color-gray-1);
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.container-header{
+  width: 70%;
+  position: absolute;
+  height: 100%;
+}
+
+.margin-top-main-container{
+  margin-top: 126px;
+}
+
+.main-finance-container{
+  width: 65%;
+  
+}
+
+.empty-images{
+  gap: 32px;
+}
+
+.empty-images img{
+  width: 100%;
+}

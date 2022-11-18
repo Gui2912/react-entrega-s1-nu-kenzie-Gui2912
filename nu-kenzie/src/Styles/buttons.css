@@ -1,0 +1,44 @@
+.button-color-brand1{
+  color: var(--color-white);
+  background-color: var(--color-brand-1);
+}
+
+.button-color-brand1:hover{
+  background-color: var(--color-brand-2);
+}
+
+.button-home{
+  width: 75%;
+}
+
+.button-main{
+  padding: 0 2%;
+  background-color: var(--color-gray-2);
+  font-weight: 600;
+  font-size: 14.4px;
+  border-radius: var(--radius);
+}
+
+.button-main:hover{
+  background-color: var(--color-brand-1);
+  color: var(--color-white);
+}
+
+.button-main:hover{
+  filter: brightness(100%);
+  color: var(--color-gray-3);
+}
+
+.button-finance-main{
+  padding: 0 5%;
+}
+
+.button-finance-main:focus{
+  background-color: var(--color-brand-1);
+  color: var(--color-white);
+}
+
+.button-finance-div{
+  gap: 12px;
+  width: 50%;
+}

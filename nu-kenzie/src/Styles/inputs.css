@@ -1,0 +1,14 @@
+.input-desc-main{
+  width: 100%;
+  border-radius: var(--radius);
+  height: 53px;
+  background-color: var(--color-gray-1);
+  font-size: var(--size3);
+  padding: 0 16px;
+  border: none;
+  outline: none;
+}
+
+.input-desc-main:focus{
+  outline: var(--color-brand-1);
+}

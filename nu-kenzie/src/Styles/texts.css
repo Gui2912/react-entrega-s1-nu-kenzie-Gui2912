@@ -1,0 +1,18 @@
+.title-1{
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.title-2{
+  font-size: var(--size1);
+  font-weight: 800;
+}
+
+.nu{
+  color: var(--color-brand-1);
+}
+
+.white{
+  color: var(--color-white);
+}
