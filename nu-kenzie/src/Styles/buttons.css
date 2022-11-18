@@ -7,6 +7,10 @@
   background-color: var(--color-brand-2);
 }
 
+.height-btn{
+  height: 49px;
+}
+
 .button-home{
   width: 75%;
 }
@@ -20,22 +24,24 @@
 }
 
 .button-main:hover{
-  background-color: var(--color-brand-1);
-  color: var(--color-white);
-}
-
-.button-main:hover{
   filter: brightness(100%);
   color: var(--color-gray-3);
 }
 
 .button-finance-main{
   padding: 0 5%;
+  font-size: 15px;
+  color: #343A40;
+  font-weight: 600;
 }
 
 .button-finance-main:focus{
   background-color: var(--color-brand-1);
   color: var(--color-white);
+}
+
+.button-finance-main:hover{
+  filter: brightness(90%);
 }
 
 .button-finance-div{

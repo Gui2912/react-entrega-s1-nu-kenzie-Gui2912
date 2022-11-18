@@ -21,7 +21,7 @@ const MainFinance = (props) => {
     <section className="main-finance-container">
       <div className="flex Jspace-between align-center">
         <h3>Resumo Financeiro</h3>
-        <div className="flex button-finance-div">
+        <div className="flex flex-end button-finance-div">
           <ButtonFinance
             text={'Todos'}
             classes={'button-finance-main'}
@@ -41,7 +41,7 @@ const MainFinance = (props) => {
       </div>
       {product.length === 0 ? (
         <div className="flex column empty-images">
-          <h2>Você ainda não possui nenhum lançamento</h2>
+          <h2 className='main-finance-title'>Você ainda não possui nenhum lançamento</h2>
           <EmptyInputs />
           <EmptyInputs />
           <EmptyInputs />

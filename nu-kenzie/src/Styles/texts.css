@@ -16,3 +16,13 @@
 .white{
   color: var(--color-white);
 }
+
+.span{
+  margin: 4px 0 18px 0;
+  color: #868E96;
+
+}
+
+.main-finance-title{
+  margin-top: 32px;
+}

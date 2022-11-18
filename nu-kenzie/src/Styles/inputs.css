@@ -7,8 +7,45 @@
   padding: 0 16px;
   border: none;
   outline: none;
+  margin: 13px 0 0 0;
+  color: #868E96;
 }
 
 .input-desc-main:focus{
   outline: var(--color-brand-1);
+}
+
+.input-entrace-data{
+  height: 48px;
+  width: 128px;
+  border-radius: var(--radius);
+  background-color: var(--color-gray-1);
+  padding: 0 16px;
+  color: var(--color-gray-3);
+  outline: none;
+  font-size: var(--size3);
+}
+
+.select-type{
+  background-color: var(--color-gray-1);
+  height: 48px;
+  width: 150px;
+  /* color: var(--color-gray-3); */
+  border-radius: var(--radius);
+  cursor: pointer;
+  outline: none;
+  padding: 0 16px;
+  font-size: var(--size3);
+}
+
+.select-type > option{
+  height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-container{
+  margin: 19px 0;
 }

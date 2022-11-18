@@ -40,6 +40,7 @@ button{
 .row{flex-direction: row;}
 .justify-center{justify-content: center;}
 .align-center{align-items: center;}
+.flex-end{justify-content: flex-end;}
 
 .Jspace-between{justify-content: space-between;}
 .Jspace-around{justify-content: space-around;}
