@@ -50,8 +50,8 @@ const MainForm = (props) => {
             value={selected}
             className='select-type'
           >
-            <option value="entrace">Entrada</option>
-            <option value="withdraw">Saída</option>
+            <option value="entrada">Entrada</option>
+            <option value="despesa">Saída</option>
           </select>
         </div>
       </div>

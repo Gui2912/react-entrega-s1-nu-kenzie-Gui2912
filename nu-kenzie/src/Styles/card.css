@@ -1,0 +1,46 @@
+.card-container{
+  height: 87px;
+  margin-bottom: 32px;
+  background-color: var(--color-gray-1);
+  padding: 12px;
+  position: relative;
+  border-radius: var(--radius);
+}
+
+.number-trash{
+  width: 30%;
+}
+
+.trash{
+  height: 22px;
+  width: 22px;
+  padding: 6px;
+  cursor: pointer;
+} 
+
+.trash:hover{
+  background-color: var(--color-brand-1);
+  color: white;
+}
+
+.trash img{
+  height: 15px;
+  width: 15px;
+}
+
+.distinct{
+  height: 100%;
+  width: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+.distinct-positive{
+  background-color: var(--color-green);
+}
+
+.distinct-negative{
+  background-color: var(--color-gray-2);
+}

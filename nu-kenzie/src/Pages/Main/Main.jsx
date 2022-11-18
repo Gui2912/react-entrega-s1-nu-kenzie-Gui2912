@@ -14,7 +14,7 @@ const Main = ({ verify, setVerify }) => {
 
   const [description, setDescription] = useState('')
   const [number, setNumber] = useState(0)
-  const [selected, setSelected] = useState('entrace')
+  const [selected, setSelected] = useState('entrada')
 
 
   const handleButton = () => {

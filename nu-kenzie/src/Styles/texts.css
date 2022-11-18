@@ -26,3 +26,10 @@
 .main-finance-title{
   margin-top: 32px;
 }
+
+.selected-text{
+  margin-top: 8px;
+  color: #343A40;
+  font-size: var(--size3);
+  font-family: 'Nunito';
+}

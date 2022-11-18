@@ -19,7 +19,7 @@ const MainFinance = (props) => {
 
   return (
     <section className="main-finance-container">
-      <div className="flex Jspace-between align-center">
+      <div className="flex Jspace-between align-center finance-header">
         <h3>Resumo Financeiro</h3>
         <div className="flex flex-end button-finance-div">
           <ButtonFinance
@@ -41,7 +41,9 @@ const MainFinance = (props) => {
       </div>
       {product.length === 0 ? (
         <div className="flex column empty-images">
-          <h2 className='main-finance-title'>Você ainda não possui nenhum lançamento</h2>
+          <h2 className="main-finance-title">
+            Você ainda não possui nenhum lançamento
+          </h2>
           <EmptyInputs />
           <EmptyInputs />
           <EmptyInputs />
@@ -49,12 +51,14 @@ const MainFinance = (props) => {
       ) : (
         product.map((element, index) => {
           return (
-            <Card
-              key={index}
-              description={element.description}
-              selected={element.selected}
-              number={element.number}
-            />
+            <ul>
+              <Card
+                key={index}
+                description={element.description}
+                selected={element.selected}
+                number={element.number}
+              />
+            </ul>
           );
         })
       )}

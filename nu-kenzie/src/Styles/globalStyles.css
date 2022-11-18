@@ -15,6 +15,10 @@ button{
   height: 44px;
 }
 
+ul{
+  list-style: none;
+}
+
 :root{
   --color-brand-1: #FD377E;
   --color-brand-2: #E34981;
@@ -41,6 +45,7 @@ button{
 .justify-center{justify-content: center;}
 .align-center{align-items: center;}
 .flex-end{justify-content: flex-end;}
+.align-flex-end{align-items: flex-end;}
 
 .Jspace-between{justify-content: space-between;}
 .Jspace-around{justify-content: space-around;}
