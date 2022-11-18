@@ -8,17 +8,19 @@ import '../../Styles/texts.css';
 
 
 const Card = (props) => {
-  const { description, number, selected } = props;
+  const { description, number, selected, exclue } = props;
+
+
 
   return (
     <li className="card-container">
-      <span className='distinct distinct-positive'>
-      </span>
+      <div className={`distinct ${selected}`}>
+      </div>
       <div className="flex Jspace-between align-center">
         <h2>{description}</h2>
         <div className="flex number-trash Jspace-between align-center">
           <p>R$ {number}</p>
-          <button className="trash flex align-center justify-center">
+          <button className="trash flex align-center justify-center" onClick={exclue}>
             <img src={Trash} alt="" />
           </button>
         </div>

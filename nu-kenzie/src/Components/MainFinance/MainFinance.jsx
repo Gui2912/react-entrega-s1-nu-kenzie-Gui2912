@@ -4,6 +4,7 @@ import '../../Styles/buttons.css';
 import '../../Styles/inputs.css';
 import '../../Styles/containers.css';
 import '../../Styles/texts.css';
+import '../../Styles/card.css';
 import ButtonFinance from '../ButtonFinance/ButtonFinance';
 import { useState } from 'react';
 import EmptyInputs from '../EmptyInputs/EmptyInputs';
@@ -16,6 +17,10 @@ const MainFinance = (props) => {
   const buttonHandle = () => {
     console.log('Hello World');
   };
+
+  const exclueLi = (e) => {
+    e.target.offsetParent.remove()
+  }
 
   return (
     <section className="main-finance-container">
@@ -57,6 +62,7 @@ const MainFinance = (props) => {
                 description={element.description}
                 selected={element.selected}
                 number={element.number}
+                exclue={exclueLi}
               />
             </ul>
           );

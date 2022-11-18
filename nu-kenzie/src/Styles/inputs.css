@@ -15,9 +15,13 @@
   outline: var(--color-brand-1);
 }
 
+.labels{
+  width: 40%;
+}
+
 .input-entrace-data{
   height: 48px;
-  width: 128px;
+  width: 40%;
   border-radius: var(--radius);
   background-color: var(--color-gray-1);
   padding: 0 16px;
@@ -29,7 +33,7 @@
 .select-type{
   background-color: var(--color-gray-1);
   height: 48px;
-  width: 150px;
+  width: 50%;
   /* color: var(--color-gray-3); */
   border-radius: var(--radius);
   cursor: pointer;

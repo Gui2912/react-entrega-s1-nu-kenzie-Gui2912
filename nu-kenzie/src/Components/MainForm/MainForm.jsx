@@ -34,7 +34,7 @@ const MainForm = (props) => {
         />
         <span className='span'>Ex: compra de roupa</span>
         <div className="flex Jspace-between input-container">
-          <label htmlFor="">
+          
             <input
               type="number"
               placeholder="R$"
@@ -43,7 +43,7 @@ const MainForm = (props) => {
               value={number}
               className='input-entrace-data'
             />
-          </label>
+          
           <select
             name="select"
             onChange={(e) => setSelected(e.target.value)}
